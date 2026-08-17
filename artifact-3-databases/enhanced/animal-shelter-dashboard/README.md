@@ -120,7 +120,6 @@ animal-shelter-dashboard/
 ├── database.py
 ├── animal_repository.py
 ├── reporting_service.py
-├── CRUD_Python_Module.py
 ├── requirements.txt
 ├── README.md
 ├── .env.example
