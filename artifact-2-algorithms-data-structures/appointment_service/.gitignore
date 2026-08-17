@@ -6,6 +6,7 @@ target/
 
 # VS Code
 .vscode/
+.idea/
 
 # Operating system files
 .DS_Store
