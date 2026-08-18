@@ -262,6 +262,7 @@ section {
 
 .tech-section {
     padding-top: 18px;
+    border-top: none;
 }
 
 .technology-summary {
