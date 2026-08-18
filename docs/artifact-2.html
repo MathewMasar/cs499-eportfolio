@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Appointment Service Scheduler | Mathew Masar
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css"
+    >
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"
+    ></script>
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"
+    ></script>
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-java.min.js"
+    ></script>
+</head>
+
+<body
+    class="artifact-page"
+    data-artifact-base="../artifact-2-algorithms-data-structures/appointment_service/"
+    data-original-base="../artifact-2-algorithms-data-structures/original/"
+    data-readme="README.md"
+    data-narrative="narratives/artifact-2.md"
+    data-language="java"
+    data-default-file="src/main/java/AppointmentService/AppointmentService.java"
+    data-original-default-file="AppointmentService.java"
+>
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header class="site-header">
+
+        <div class="header-inner">
+
+            <div class="site-title">
+
+                <h1>
+                    Mathew Masar
+                </h1>
+
+                <p>
+                    CS 499 Computer Science ePortfolio
+                </p>
+
+            </div>
+
+            <nav>
+
+                <a href="index.html">
+                    Portfolio Home
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main>
+
+        <!-- =================================================
+             PROJECT HEADER
+        ================================================== -->
+
+        <section class="project-header">
+
+            <a
+                class="back-link"
+                href="index.html"
+            >
+                ← Back to Portfolio
+            </a>
+
+            <p class="section-label">
+                Algorithms and Data Structures
+            </p>
+
+            <h1>
+                Appointment Service Scheduler
+            </h1>
+
+            <p>
+                A multi-service scheduling system using
+                complementary data structures to support direct
+                lookup, chronological organization, appointment
+                availability, and efficient next-appointment
+                retrieval.
+            </p>
+
+        </section>
+
+
+        <!-- =================================================
+             PROJECT VIEWER
+        ================================================== -->
+
+        <section class="project-viewer">
+
+            <div class="viewer-tabs">
+
+                <button
+                    class="viewer-tab active-tab"
+                    data-panel="overview-panel"
+                >
+                    Overview
+                </button>
+
+                <button
+                    class="viewer-tab"
+                    data-panel="narrative-panel"
+                >
+                    Enhancement Narrative
+                </button>
+
+                <button
+                    class="viewer-tab"
+                    data-panel="readme-panel"
+                >
+                    README
+                </button>
+
+                <button class="viewer-tab" data-panel="enhanced-code-panel">
+                    Enhanced Source Code
+                </button>
+
+                <button class="viewer-tab" data-panel="original-code-panel">
+                    Original Source Code
+                </button>
+
+            </div>
+
+
+            <!-- =============================================
+                 OVERVIEW
+            ============================================== -->
+
+            <div
+                id="overview-panel"
+                class="viewer-panel"
+            >
+
+                <div class="overview-content">
+
+                    <h2>
+                        Artifact Overview
+                    </h2>
+
+                    <p>
+                        This artifact originated in CS 320:
+                        Software Testing, Automation, and Quality
+                        Assurance. The original application
+                        provided basic appointment creation,
+                        storage, updating, and deletion.
+                    </p>
+
+                    <p>
+                        For the capstone enhancement, I expanded
+                        the application into a multi-service
+                        scheduling system. HashMap, EnumMap,
+                        TreeMap, and PriorityQueue structures
+                        support different scheduling and lookup
+                        operations, while additional validation,
+                        scheduling rules, automated tests, and a
+                        runnable demonstration provide a more
+                        complete implementation.
+                    </p>
+
+
+                    <div class="code-review-block">
+
+                        <h3>
+                            Code Review
+                        </h3>
+
+                        <p>
+                            This code review walks through the original
+                            artifact, identifies areas for improvement,
+                            and explains the enhancement plan completed
+                            during the capstone.
+                        </p>
+
+                        <div class="video-container">
+                            <iframe
+                                src="https://www.youtube.com/embed/j-CptmkbqGw"
+                                title="Artifact 2 Code Review"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-file-links">
+
+                        <a
+                            href="../artifact-2-algorithms-data-structures/original/"
+                        >
+                            View Original Files
+                        </a>
+
+                        <a
+                            href="../artifact-2-algorithms-data-structures/appointment_service/"
+                        >
+                            View Enhanced Files
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =============================================
+                 ENHANCEMENT NARRATIVE
+            ============================================== -->
+
+            <div
+                id="narrative-panel"
+                class="viewer-panel hidden"
+            >
+
+                <div
+                    id="narrative-content"
+                    class="markdown-content"
+                >
+                    Loading enhancement narrative...
+                </div>
+
+            </div>
+
+
+            <!-- =============================================
+                 README
+            ============================================== -->
+
+            <div
+                id="readme-panel"
+                class="viewer-panel hidden"
+            >
+
+                <div
+                    id="readme-content"
+                    class="markdown-content"
+                >
+                    Loading README...
+                </div>
+
+            </div>
+
+
+            <!-- ENHANCED SOURCE CODE -->
+            <div id="enhanced-code-panel" class="viewer-panel hidden">
+                <div class="source-toolbar">
+                    <label for="enhanced-source-file">Enhanced source file</label>
+                    <select id="enhanced-source-file" class="file-select">
+                        <option value="src/main/java/AppointmentService/Appointment.java">Appointment.java</option>
+                        <option value="src/main/java/AppointmentService/AppointmentService.java">AppointmentService.java</option>
+                        <option value="src/main/java/AppointmentService/SchedulerDemo.java">SchedulerDemo.java</option>
+                        <option value="src/main/java/AppointmentService/ServiceType.java">ServiceType.java</option>
+                        <option value="src/test/java/AppointmentService/AppointmentTest.java">AppointmentTest.java</option>
+                        <option value="src/test/java/AppointmentService/AppointmentServiceTest.java">AppointmentServiceTest.java</option>
+                    </select>
+                </div>
+                <pre class="code-viewer"><code id="enhanced-source-code" class="language-java"></code></pre>
+            </div>
+
+            <!-- ORIGINAL SOURCE CODE -->
+            <div id="original-code-panel" class="viewer-panel hidden">
+                <div class="source-toolbar">
+                    <label for="original-source-file">Original source file</label>
+                    <select id="original-source-file" class="file-select">
+                        <option value="Appointment.java">Appointment.java</option>
+                        <option value="AppointmentService.java">AppointmentService.java</option>
+                        <option value="AppointmentTest.java">AppointmentTest.java</option>
+                        <option value="AppointmentServiceTest.java">AppointmentServiceTest.java</option>
+                    </select>
+                </div>
+                <pre class="code-viewer"><code id="original-source-code" class="language-java"></code></pre>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer>
+
+        <p>
+            Mathew Masar · CS 499 Computer Science Capstone
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

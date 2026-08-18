@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Grazioso Salvare Dashboard | Mathew Masar
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css"
+    >
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"
+    ></script>
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"
+    ></script>
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"
+    ></script>
+</head>
+
+<body
+    class="artifact-page"
+    data-artifact-base="../artifact-3-databases/enhanced/animal-shelter-dashboard/"
+    data-original-base="../artifact-3-databases/original/"
+    data-readme="README.md"
+    data-narrative="narratives/artifact-3.md"
+    data-language="python"
+    data-default-file="app.py"
+    data-original-default-file="CRUD_Python_Module.py"
+>
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header class="site-header">
+
+        <div class="header-inner">
+
+            <div class="site-title">
+
+                <h1>
+                    Mathew Masar
+                </h1>
+
+                <p>
+                    CS 499 Computer Science ePortfolio
+                </p>
+
+            </div>
+
+            <nav>
+
+                <a href="index.html">
+                    Portfolio Home
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main>
+
+        <!-- =================================================
+             PROJECT HEADER
+        ================================================== -->
+
+        <section class="project-header">
+
+            <a
+                class="back-link"
+                href="index.html"
+            >
+                ← Back to Portfolio
+            </a>
+
+            <p class="section-label">
+                Databases
+            </p>
+
+            <h1>
+                Grazioso Salvare Animal Shelter Dashboard
+            </h1>
+
+            <p>
+                A standalone Dash and MongoDB application
+                featuring advanced searching, geospatial data,
+                rescue filtering, administrative reporting,
+                secure configuration, and automated testing.
+            </p>
+
+        </section>
+
+
+        <!-- =================================================
+             PROJECT VIEWER
+        ================================================== -->
+
+        <section class="project-viewer">
+
+            <div class="viewer-tabs">
+
+                <button
+                    class="viewer-tab active-tab"
+                    data-panel="overview-panel"
+                >
+                    Overview
+                </button>
+
+                <button
+                    class="viewer-tab"
+                    data-panel="narrative-panel"
+                >
+                    Enhancement Narrative
+                </button>
+
+                <button
+                    class="viewer-tab"
+                    data-panel="readme-panel"
+                >
+                    README
+                </button>
+
+                <button class="viewer-tab" data-panel="enhanced-code-panel">
+                    Enhanced Source Code
+                </button>
+
+                <button class="viewer-tab" data-panel="original-code-panel">
+                    Original Source Code
+                </button>
+
+            </div>
+
+
+            <!-- =============================================
+                 OVERVIEW
+            ============================================== -->
+
+            <div
+                id="overview-panel"
+                class="viewer-panel"
+            >
+
+                <div class="overview-content">
+
+                    <h2>
+                        Artifact Overview
+                    </h2>
+
+                    <p>
+                        This artifact originated in CS 340:
+                        Advanced Programming Concepts. The
+                        original project combined MongoDB with a
+                        Jupyter Notebook dashboard to search and
+                        visualize animal shelter records for the
+                        fictional Grazioso Salvare organization.
+                    </p>
+
+                    <p>
+                        For the capstone enhancement, I rebuilt
+                        the project as a standalone modular Dash
+                        application. The enhanced system includes
+                        advanced searching, MongoDB indexing,
+                        geospatial functionality, rescue
+                        filtering, administrative reporting,
+                        secure environment-based configuration,
+                        stronger validation, and automated
+                        testing.
+                    </p>
+
+
+                    <div class="code-review-block">
+
+                        <h3>
+                            Code Review
+                        </h3>
+
+                        <p>
+                            This code review walks through the original
+                            artifact, identifies areas for improvement,
+                            and explains the enhancement plan completed
+                            during the capstone.
+                        </p>
+
+                        <div class="video-container">
+                            <iframe
+                                src="https://www.youtube.com/embed/v3kqtnKEIFg"
+                                title="Artifact 3 Code Review"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-file-links">
+
+                        <a
+                            href="../artifact-3-databases/original/"
+                        >
+                            View Original Files
+                        </a>
+
+                        <a
+                            href="../artifact-3-databases/enhanced/animal-shelter-dashboard/"
+                        >
+                            View Enhanced Files
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =============================================
+                 ENHANCEMENT NARRATIVE
+            ============================================== -->
+
+            <div
+                id="narrative-panel"
+                class="viewer-panel hidden"
+            >
+
+                <div
+                    id="narrative-content"
+                    class="markdown-content"
+                >
+                    Loading enhancement narrative...
+                </div>
+
+            </div>
+
+
+            <!-- =============================================
+                 README
+            ============================================== -->
+
+            <div
+                id="readme-panel"
+                class="viewer-panel hidden"
+            >
+
+                <div
+                    id="readme-content"
+                    class="markdown-content"
+                >
+                    Loading README...
+                </div>
+
+            </div>
+
+
+            <!-- ENHANCED SOURCE CODE -->
+            <div id="enhanced-code-panel" class="viewer-panel hidden">
+                <div class="source-toolbar">
+                    <label for="enhanced-source-file">Enhanced source file</label>
+                    <select id="enhanced-source-file" class="file-select">
+                        <option value="app.py">app.py</option>
+                        <option value="config.py">config.py</option>
+                        <option value="database.py">database.py</option>
+                        <option value="animal_repository.py">animal_repository.py</option>
+                        <option value="reporting_service.py">reporting_service.py</option>
+                        <option value="layouts/rescue_layout.py">layouts/rescue_layout.py</option>
+                        <option value="layouts/search_layout.py">layouts/search_layout.py</option>
+                        <option value="layouts/admin_layout.py">layouts/admin_layout.py</option>
+                        <option value="callbacks/rescue_callbacks.py">callbacks/rescue_callbacks.py</option>
+                        <option value="callbacks/search_callbacks.py">callbacks/search_callbacks.py</option>
+                        <option value="callbacks/admin_callbacks.py">callbacks/admin_callbacks.py</option>
+                        <option value="tests/test_database.py">tests/test_database.py</option>
+                        <option value="tests/test_animal_repository.py">tests/test_animal_repository.py</option>
+                        <option value="tests/test_reporting_service.py">tests/test_reporting_service.py</option>
+                    </select>
+                </div>
+                <pre class="code-viewer"><code id="enhanced-source-code" class="language-python"></code></pre>
+            </div>
+
+            <!-- ORIGINAL SOURCE CODE -->
+            <div id="original-code-panel" class="viewer-panel hidden">
+                <div class="source-toolbar">
+                    <label for="original-source-file">Original source file</label>
+                    <select id="original-source-file" class="file-select">
+                        <option value="CRUD_Python_Module.py">CRUD_Python_Module.py</option>
+                        <option value="ProjectTwoDashboard.ipynb">ProjectTwoDashboard.ipynb</option>
+                    </select>
+                </div>
+                <pre class="code-viewer"><code id="original-source-code" class="language-python"></code></pre>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer>
+
+        <p>
+            Mathew Masar · CS 499 Computer Science Capstone
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

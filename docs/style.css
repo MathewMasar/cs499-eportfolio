@@ -1,0 +1,676 @@
+/* =========================================================
+   GLOBAL
+========================================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+    background: #f7f7f5;
+    color: #1f1f1f;
+
+    line-height: 1.7;
+}
+
+a {
+    color: #1f4f75;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button,
+select {
+    font-family: inherit;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.site-header {
+    background: #f7f7f5;
+    border-bottom: 1px solid #d8d8d3;
+}
+
+.header-inner {
+    max-width: 1050px;
+    margin: 0 auto;
+
+    padding: 26px 24px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 30px;
+}
+
+.site-title h1 {
+    margin: 0;
+
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.site-title p {
+    margin: 3px 0 0;
+
+    color: #686868;
+    font-size: 0.95rem;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 22px;
+}
+
+nav a {
+    color: #333;
+    font-size: 0.95rem;
+}
+
+
+/* =========================================================
+   MAIN
+========================================================= */
+
+main {
+    max-width: 920px;
+
+    margin: 0 auto;
+
+    padding: 70px 24px 90px;
+}
+
+section {
+    margin-bottom: 95px;
+}
+
+.section-label {
+    margin-bottom: 12px;
+
+    color: #737373;
+
+    font-size: 0.8rem;
+    font-weight: 600;
+
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+
+/* =========================================================
+   INTRO
+========================================================= */
+
+.intro-section {
+    max-width: 760px;
+}
+
+.intro-section h2 {
+    margin: 0 0 28px;
+
+    font-size: 2.4rem;
+    line-height: 1.2;
+
+    font-weight: 500;
+}
+
+.intro-section p {
+    font-size: 1.05rem;
+}
+
+
+/* =========================================================
+   HOME PAGE ARTIFACT SECTION
+========================================================= */
+
+.artifact-section {
+    padding-top: 45px;
+
+    border-top: 1px solid #d8d8d3;
+}
+
+.artifact {
+    display: grid;
+
+    grid-template-columns: 70px 1fr;
+
+    gap: 25px;
+
+    padding: 42px 0;
+
+    border-bottom: 1px solid #d8d8d3;
+}
+
+.artifact-number {
+    color: #929292;
+
+    font-family:
+        "SFMono-Regular",
+        Consolas,
+        "Liberation Mono",
+        monospace;
+
+    font-size: 0.95rem;
+}
+
+.artifact-content {
+    min-width: 0;
+}
+
+.artifact-content h2 {
+    margin: 0;
+
+    font-size: 1.55rem;
+    font-weight: 550;
+}
+
+.artifact-category {
+    margin: 5px 0 18px;
+
+    color: #696969;
+
+    font-size: 0.95rem;
+}
+
+.artifact-content > p {
+    max-width: 680px;
+}
+
+
+/* =========================================================
+   HOME PAGE ARTIFACT CONTROLS
+========================================================= */
+
+.artifact-links {
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin: 24px 0;
+}
+
+.artifact-tab {
+    border: 1px solid #bdbdb8;
+
+    background: transparent;
+    color: #333;
+
+    padding: 8px 14px;
+
+    cursor: pointer;
+
+    font-size: 0.9rem;
+}
+
+.artifact-tab:hover {
+    background: #ecece8;
+}
+
+.artifact-tab.active-tab {
+    background: #e4e4df;
+}
+
+.project-link {
+    padding: 8px 4px;
+
+    font-size: 0.9rem;
+}
+
+
+/* =========================================================
+   HOME PAGE ARTIFACT PANELS
+========================================================= */
+
+.artifact-panel {
+    margin-top: 22px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* =========================================================
+   ARTIFACT PAGE HEADER
+========================================================= */
+
+.project-header {
+    max-width: 760px;
+}
+
+.project-header .back-link {
+    display: inline-block;
+
+    margin-bottom: 38px;
+
+    font-size: 0.9rem;
+}
+
+.project-header h1 {
+    margin: 0 0 18px;
+
+    font-size: 2.25rem;
+    line-height: 1.2;
+
+    font-weight: 500;
+}
+
+.project-header > p:last-child {
+    max-width: 720px;
+
+    font-size: 1.03rem;
+}
+
+
+/* =========================================================
+   ARTIFACT PAGE VIEWER
+========================================================= */
+
+.project-viewer {
+    margin-bottom: 40px;
+}
+
+
+/* =========================================================
+   ARTIFACT PAGE VIEWER TABS
+========================================================= */
+
+.viewer-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 24px;
+    padding-bottom: 18px;
+
+    border-bottom: 1px solid #d8d8d3;
+}
+
+.viewer-tab {
+    display: inline-block;
+
+    padding: 8px 14px;
+
+    border: 1px solid #bdbdb8;
+
+    background: transparent;
+    color: #333;
+
+    cursor: pointer;
+
+    font-family: inherit;
+    font-size: 0.9rem;
+}
+
+.viewer-tab:hover {
+    background: #ecece8;
+}
+
+.viewer-tab.active-tab {
+    background: #e4e4df;
+}
+
+.viewer-panel {
+    display: block;
+
+    margin-top: 20px;
+}
+
+.viewer-panel.hidden {
+    display: none;
+}
+
+
+/* =========================================================
+   ARTIFACT OVERVIEW
+========================================================= */
+
+.overview-content {
+    padding: 30px;
+
+    background: #ffffff;
+
+    border: 1px solid #deded8;
+}
+
+.overview-content h2 {
+    margin-top: 0;
+
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.overview-content p {
+    max-width: 720px;
+}
+
+.project-file-links {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 22px;
+
+    margin-top: 28px;
+    padding-top: 20px;
+
+    border-top: 1px solid #e3e3df;
+}
+
+.project-file-links a {
+    font-size: 0.95rem;
+}
+
+/* =========================================================
+   CODE REVIEW VIDEO
+========================================================= */
+
+.code-review-block {
+    margin-top: 32px;
+    padding-top: 24px;
+
+    border-top: 1px solid #e3e3df;
+}
+
+.code-review-block h3 {
+    margin: 0 0 8px;
+
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.code-review-block p {
+    margin: 0 0 18px;
+
+    max-width: 720px;
+}
+
+.video-container {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: #000000;
+    border: 1px solid #d8d8d3;
+    border-radius: 4px;
+}
+
+.video-container iframe {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border: 0;
+}
+
+/* =========================================================
+   MARKDOWN VIEWER
+========================================================= */
+
+.markdown-content {
+    padding: 30px;
+
+    background: #ffffff;
+
+    border: 1px solid #deded8;
+
+    overflow-x: auto;
+}
+
+.markdown-content > :first-child {
+    margin-top: 0;
+}
+
+.markdown-content h1 {
+    margin-top: 0;
+
+    padding-bottom: 10px;
+
+    border-bottom: 1px solid #e3e3df;
+
+    font-size: 1.8rem;
+}
+
+.markdown-content h2 {
+    margin-top: 36px;
+
+    font-size: 1.4rem;
+}
+
+.markdown-content h3 {
+    margin-top: 28px;
+
+    font-size: 1.15rem;
+}
+
+.markdown-content p {
+    max-width: none;
+}
+
+.markdown-content ul,
+.markdown-content ol {
+    padding-left: 25px;
+}
+
+.markdown-content code {
+    font-family:
+        "SFMono-Regular",
+        Consolas,
+        "Liberation Mono",
+        monospace;
+
+    font-size: 0.9em;
+}
+
+.markdown-content :not(pre) > code {
+    padding: 2px 5px;
+
+    background: #efefec;
+
+    border-radius: 3px;
+}
+
+.markdown-content pre {
+    padding: 18px;
+
+    overflow-x: auto;
+
+    background: #2d2d2d;
+    color: #f8f8f2;
+}
+
+.markdown-content table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin: 20px 0;
+}
+
+.markdown-content th,
+.markdown-content td {
+    padding: 9px 12px;
+
+    border: 1px solid #d8d8d3;
+
+    text-align: left;
+}
+
+.markdown-content img {
+    max-width: 100%;
+}
+
+
+/* =========================================================
+   SOURCE TOOLBAR
+========================================================= */
+
+.source-toolbar {
+    margin-bottom: 15px;
+}
+
+.source-toolbar label {
+    display: block;
+
+    margin-bottom: 6px;
+
+    color: #555;
+
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.file-select {
+    width: 100%;
+    max-width: 500px;
+
+    padding: 9px 10px;
+
+    border: 1px solid #c5c5c0;
+
+    background: white;
+    color: #222;
+}
+
+
+/* =========================================================
+   CODE VIEWER
+========================================================= */
+
+.code-viewer {
+    max-height: 680px;
+
+    overflow: auto;
+
+    margin: 0;
+
+    border-radius: 3px;
+
+    font-size: 0.82rem;
+    line-height: 1.55;
+}
+
+.code-viewer code {
+    font-family:
+        "SFMono-Regular",
+        Consolas,
+        "Liberation Mono",
+        monospace;
+}
+
+
+/* =========================================================
+   TEXT SECTIONS
+========================================================= */
+
+.text-section {
+    max-width: 720px;
+
+    padding-top: 45px;
+
+    border-top: 1px solid #d8d8d3;
+}
+
+.text-section h2 {
+    margin-top: 0;
+
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+footer {
+    padding: 30px 24px;
+
+    border-top: 1px solid #d8d8d3;
+
+    text-align: center;
+
+    color: #777;
+
+    font-size: 0.9rem;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 700px) {
+
+    .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        gap: 15px;
+    }
+
+    main {
+        padding-top: 45px;
+    }
+
+    .intro-section h2 {
+        font-size: 2rem;
+    }
+
+    .project-header h1 {
+        font-size: 1.9rem;
+    }
+
+    .artifact {
+        grid-template-columns: 1fr;
+
+        gap: 8px;
+    }
+
+    .viewer-tabs {
+        align-items: stretch;
+    }
+
+    .viewer-tab {
+        flex: 1 1 auto;
+    }
+
+    .overview-content,
+    .markdown-content {
+        padding: 20px;
+    }
+
+    .project-file-links {
+        flex-direction: column;
+
+        gap: 10px;
+    }
+}

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        LED/LCD State Simulator | Mathew Masar
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css"
+    >
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/marked/lib/marked.umd.js"
+    ></script>
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"
+    ></script>
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"
+    ></script>
+</head>
+
+<body
+    class="artifact-page"
+    data-artifact-base="../artifact-1-software-engineering/enhanced/"
+    data-original-base="../artifact-1-software-engineering/original/"
+    data-readme="README.md"
+    data-narrative="narratives/artifact-1.md"
+    data-language="python"
+    data-default-file="display_control_server.py"
+    data-original-default-file="DisplayTest-Server.py"
+>
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header class="site-header">
+
+        <div class="header-inner">
+
+            <div class="site-title">
+
+                <h1>
+                    Mathew Masar
+                </h1>
+
+                <p>
+                    CS 499 Computer Science ePortfolio
+                </p>
+
+            </div>
+
+            <nav>
+
+                <a href="index.html">
+                    Portfolio Home
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main>
+
+        <!-- =================================================
+             PROJECT HEADER
+        ================================================== -->
+
+        <section class="project-header">
+
+            <a
+                class="back-link"
+                href="index.html"
+            >
+                ← Back to Portfolio
+            </a>
+
+            <p class="section-label">
+                Software Engineering and Design
+            </p>
+
+            <h1>
+                LED/LCD State Simulator
+            </h1>
+
+            <p>
+                A Raspberry Pi client-server application
+                redesigned into a modular embedded system with
+                separate hardware, serial communication, state
+                management, and configuration components.
+            </p>
+
+        </section>
+
+
+        <!-- =================================================
+             PROJECT VIEWER
+        ================================================== -->
+
+        <section class="project-viewer">
+
+            <div class="viewer-tabs">
+
+                <button
+                    class="viewer-tab active-tab"
+                    data-panel="overview-panel"
+                >
+                    Overview
+                </button>
+
+                <button
+                    class="viewer-tab"
+                    data-panel="narrative-panel"
+                >
+                    Enhancement Narrative
+                </button>
+
+                <button
+                    class="viewer-tab"
+                    data-panel="readme-panel"
+                >
+                    README
+                </button>
+
+                <button class="viewer-tab" data-panel="enhanced-code-panel">
+                    Enhanced Source Code
+                </button>
+
+                <button class="viewer-tab" data-panel="original-code-panel">
+                    Original Source Code
+                </button>
+
+            </div>
+
+
+            <!-- =============================================
+                 OVERVIEW
+            ============================================== -->
+
+            <div
+                id="overview-panel"
+                class="viewer-panel"
+            >
+
+                <div class="overview-content">
+
+                    <h2>
+                        Artifact Overview
+                    </h2>
+
+                    <p>
+                        This artifact originated in CS 350:
+                        Emerging Systems Architectures and
+                        Technologies. The original project used
+                        Raspberry Pi hardware, an LCD display,
+                        LEDs, buttons, and serial communication
+                        to demonstrate a client-server state
+                        machine.
+                    </p>
+
+                    <p>
+                        For the capstone enhancement, I focused
+                        on software engineering and design.
+                        The application was reorganized into
+                        separate components responsible for
+                        hardware control, serial communication,
+                        state management, and configuration.
+                        The enhanced version also includes
+                        stronger validation, error handling,
+                        logging, and safer management of
+                        concurrent LCD updates.
+                    </p>
+
+
+                    <div class="code-review-block">
+
+                        <h3>
+                            Code Review
+                        </h3>
+
+                        <p>
+                            This code review walks through the original
+                            artifact, identifies areas for improvement,
+                            and explains the enhancement plan completed
+                            during the capstone.
+                        </p>
+
+                        <div class="video-container">
+                            <iframe
+                                src="https://www.youtube.com/embed/kfjqeZKWI_I"
+                                title="Artifact 1 Code Review"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-file-links">
+
+                        <a
+                            href="../artifact-1-software-engineering/original/"
+                        >
+                            View Original Files
+                        </a>
+
+                        <a
+                            href="../artifact-1-software-engineering/enhanced/"
+                        >
+                            View Enhanced Files
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =============================================
+                 ENHANCEMENT NARRATIVE
+            ============================================== -->
+
+            <div
+                id="narrative-panel"
+                class="viewer-panel hidden"
+            >
+
+                <div
+                    id="narrative-content"
+                    class="markdown-content"
+                >
+                    Loading enhancement narrative...
+                </div>
+
+            </div>
+
+
+            <!-- =============================================
+                 README
+            ============================================== -->
+
+            <div
+                id="readme-panel"
+                class="viewer-panel hidden"
+            >
+
+                <div
+                    id="readme-content"
+                    class="markdown-content"
+                >
+                    Loading README...
+                </div>
+
+            </div>
+
+
+            <!-- ENHANCED SOURCE CODE -->
+            <div id="enhanced-code-panel" class="viewer-panel hidden">
+                <div class="source-toolbar">
+                    <label for="enhanced-source-file">Enhanced source file</label>
+                    <select id="enhanced-source-file" class="file-select">
+                        <option value="config.py">config.py</option>
+                        <option value="display_control_client.py">display_control_client.py</option>
+                        <option value="display_control_server.py">display_control_server.py</option>
+                        <option value="hardware_manager.py">hardware_manager.py</option>
+                        <option value="serial_manager.py">serial_manager.py</option>
+                        <option value="state_manager.py">state_manager.py</option>
+                    </select>
+                </div>
+                <pre class="code-viewer"><code id="enhanced-source-code" class="language-python"></code></pre>
+            </div>
+
+            <!-- ORIGINAL SOURCE CODE -->
+            <div id="original-code-panel" class="viewer-panel hidden">
+                <div class="source-toolbar">
+                    <label for="original-source-file">Original source file</label>
+                    <select id="original-source-file" class="file-select">
+                        <option value="DisplayTest-Client.py">DisplayTest-Client.py</option>
+                        <option value="DisplayTest-Server.py">DisplayTest-Server.py</option>
+                    </select>
+                </div>
+                <pre class="code-viewer"><code id="original-source-code" class="language-python"></code></pre>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer>
+
+        <p>
+            Mathew Masar · CS 499 Computer Science Capstone
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
