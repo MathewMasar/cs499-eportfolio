@@ -16,6 +16,24 @@ Together, these experiences have helped shape both my professional values and th
 
 The three artifacts in my ePortfolio demonstrate complementary areas of this development. The **LED/LCD State Simulator** focuses on software engineering and embedded-system design, the **Appointment Service Scheduler** demonstrates algorithms and data structures, and the **Grazioso Salvare Animal Shelter Dashboard** focuses on database-driven application development. Each enhancement began with working software and asked how that software could be improved intentionally rather than simply made more complex.
 
+## Course Outcome Alignment
+
+The three artifacts approach different areas of computer
+science, but each contributes to the five CS 499 course
+outcomes in different ways.
+
+| Course Outcome | Artifact 1 | Artifact 2 | Artifact 3 |
+|---|:---:|:---:|:---:|
+| Collaboration & decision-making | ✓ | ✓ | ✓ |
+| Professional communication | ✓ | ✓ | ✓ |
+| Computing solutions & design trade-offs | ✓ | ✓ | ✓ |
+| Computing techniques, skills & tools | ✓ | ✓ | ✓ |
+| Security mindset | ✓ | ✓ | ✓ |
+
+**Artifact 1:** Software Engineering & Design  
+**Artifact 2:** Algorithms & Data Structures  
+**Artifact 3:** Databases
+
 Although the artifacts represent different areas of computer science, they demonstrate a common development process. Software architecture, algorithms, data management, testing, security, and communication do not exist independently in larger systems. The enhancements required me to consider how these areas work together while solving practical limitations in the original applications. Documentation was an important part of that process because code reviews, README files, enhancement narratives, comments, and project organization make both the implementation and the reasoning behind it clearer to others.
 
 Together, these artifacts demonstrate not only what I can build, but how my approach to software development has changed. My goal is to write code intentionally, choose solutions for defensible reasons, test and evaluate those decisions, and leave software in a state that another developer can understand and continue. That growth in how I design, evaluate, document, and improve software is the most important result of my Computer Science program.
