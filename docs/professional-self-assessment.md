@@ -18,10 +18,6 @@ The three artifacts in my ePortfolio demonstrate complementary areas of this dev
 
 ## Course Outcome Alignment
 
-The three artifacts approach different areas of computer
-science, but each contributes to the five CS 499 course
-outcomes in different ways.
-
 | Course Outcome | Artifact 1 | Artifact 2 | Artifact 3 |
 |---|:---:|:---:|:---:|
 | Collaboration & decision-making | ✓ | ✓ | ✓ |
