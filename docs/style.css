@@ -256,6 +256,62 @@ section {
 
 
 /* =========================================================
+   TECHNOLOGIES USED
+========================================================= */
+
+.tech-section {
+    padding-top: 18px;
+}
+
+.technology-summary {
+    margin-top: 26px;
+    padding: 22px 20px;
+
+    background: #ffffff;
+    border: 1px solid #deded8;
+    border-radius: 8px;
+}
+
+.tech-group {
+    margin-bottom: 22px;
+}
+
+.tech-group:last-child {
+    margin-bottom: 0;
+}
+
+.tech-group h3 {
+    margin: 0 0 12px;
+
+    color: #3d3d3d;
+    font-size: 0.96rem;
+    font-weight: 600;
+}
+
+.tech-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tech-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 8px 12px;
+
+    background: #f1f3f5;
+    border: 1px solid #dfe3e8;
+    border-radius: 999px;
+
+    color: #2b2b2b;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+
+/* =========================================================
    ARTIFACT PAGE HEADER
 ========================================================= */
 
