@@ -73,6 +73,11 @@ The `AppointmentServiceTest` suite verifies:
 - Service-specific and date-specific appointment retrieval
 - Rejection of past dates, null services, and invalid configuration
 
+## Requirements
+
+- Java 21 or later
+- Apache Maven
+
 ## Run Tests
 
 ```bash

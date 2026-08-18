@@ -1,0 +1,3 @@
+pyserial
+adafruit-circuitpython-charlcd
+RPi.GPIO
